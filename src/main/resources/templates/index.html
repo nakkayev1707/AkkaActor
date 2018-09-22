@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Actors Status</title>
+</head>
+<body>
+    <h3>Current actors status</h3>
+    <div>
+        <p th:text="'Chat: ' + ${chatStatus}"></p>
+        <p th:text="'Bob: ' + ${pesonStatus}"></p>
+        <p th:text="'Alice: ' + ${personStatus}"> </p>
+    </div>
+
+</body>
+</html>
